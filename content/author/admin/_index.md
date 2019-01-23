@@ -13,7 +13,7 @@ role = "Master of Science in Computer Science"
 organizations = [ { name = "University of Texas Arlington", url = "https://www.uta.edu/uta/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My areas of interest include Database, Artificial Intelligence, Software Engineering."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""
@@ -82,4 +82,4 @@ interests = [
 
 +++
 
-Shiva Prasad Reddy is a graduate student at the University of Texas Arlington currently pursuing his Master's degree in Computer Science. His areas of interests include Database, Software Engineering and Artificial Intelligence. Besides academics, he keeps himself abreast regarding the latest advancements in technology, and is an astrophile.
+Shiva Prasad Reddy is a graduate student at the University of Texas Arlington currently pursuing his Master's degree in Computer Science. His areas of interest include Database, Software Engineering and Artificial Intelligence. Besides academics, he keeps himself abreast regarding the latest advancements in technology, and is an astrophile.
