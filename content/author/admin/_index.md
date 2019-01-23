@@ -82,4 +82,4 @@ interests = [
 
 +++
 
-Shiva Prasad Reddy is a graduate student at the University of Texas Arlington currently pursuing a Master's degree in Computer Science. His areas of interests include Database, Software Engineering and Artificial Intelligence. Besides academics, he keeps himself abreast regarding the latest advancements in technology, and is an astrophile.
+Shiva Prasad Reddy is a graduate student at the University of Texas Arlington currently pursuing his Master's degree in Computer Science. His areas of interests include Database, Software Engineering and Artificial Intelligence. Besides academics, he keeps himself abreast regarding the latest advancements in technology, and is an astrophile.
