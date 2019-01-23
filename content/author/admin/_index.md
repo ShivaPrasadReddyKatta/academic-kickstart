@@ -78,7 +78,7 @@ interests = [
 [[social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "files/cv.pdf"
+  link = "https://drive.google.com/open?id=0B3mL3fV0dtFOTnZRTnBBRU13NWE0VGRweGU1RXNER3J6S29r"
 
 +++
 
