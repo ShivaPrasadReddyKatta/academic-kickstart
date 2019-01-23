@@ -78,7 +78,7 @@ interests = [
 [[social]]
   icon = "cv"
   icon_pack = "ai"
-  link = "https://github.com/shiva1221/academic-kickstart/blob/master/static/files/Shiva%20Prasad%20-%20Resume(USF).pdf"
+  link = "files/cv.pdf"
 
 +++
 
