@@ -37,7 +37,7 @@ date_format = "Jan 2006"
   title = "Intro to Descriptive Statistics"
   organization = "Udacity"
   date_start = "2017-03-01"
-  date_end = "2017-12-21"
+  date_end = ""
   description = ""
 
 +++
