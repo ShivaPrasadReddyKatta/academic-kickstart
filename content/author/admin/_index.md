@@ -1,16 +1,16 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Shiva Prasad Reddy Katta"
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Master of Science in Computer Science"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "University of Texas Arlington", url = "https://www.uta.edu/uta/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include distributed robotics, mobile computing and programmable matter."
@@ -21,25 +21,14 @@ email = ""
 # List (academic) interests or hobbies
 interests = [
   "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Database",
 ]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "Bachelor's in Electronics and Communication Engineering"
+  institution = "Osmania University"
   year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
 
 # Social/Academic Networking
 #
@@ -67,17 +56,22 @@ interests = [
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/shivapr61855385"
 
 [[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  icon = "linkedin"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/shiva-prasad-reddy-katta-11701aa2/"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/shiva1221"
+ 
+[[social]]
+  icon = "instagram"
+  icon_pack = "fab"
+  link = "https://www.instagram.com/shivaprasadreddy.katta/?hl=en"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -88,6 +82,4 @@ interests = [
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Shiva Prasad Reddy is a graduate student at the University of Texas Arlington currently pursuing a Master's degree in Computer Science. His areas of interests include Database, Software Engineering and Artificial Intelligence. Besides academics, he keeps himself abreast regarding the latest advancements in technology, and is an astrophile.
