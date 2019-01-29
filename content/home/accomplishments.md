@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  title = "AI Foundations Nanodegree"
+  title = [ { name = "AI Foundations nanodegree", url = "https://www.uta.edu/uta/" } ]
   organization = "Udacity"
   date_start = "2017-05-01"
   date_end = ""
