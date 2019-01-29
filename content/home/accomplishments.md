@@ -28,7 +28,7 @@ date_format = "Jan 2006"
 
 [[item]]
   title = "The Complete Python Course: Go From Beginner To Advanced!"
-  organization = "Udemy"
+  organization = "Udmy"
   date_start = "2017-04-01"
   date_end = ""
   description = ""
