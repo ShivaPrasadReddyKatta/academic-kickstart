@@ -1,5 +1,5 @@
 +++
-title = "Recommender System" 
+title = "Movie Recommender" 
 date = 2019-01-26T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
