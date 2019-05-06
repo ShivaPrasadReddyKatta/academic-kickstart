@@ -23,4 +23,4 @@ tags = ["Server","Installation"]
 image = "" 
 caption = "" 
 +++
-The above link redirects to the video I have done for my movie recommender system project.
+[Click here](https://www.youtube.com/watch?v=4rg7mkmWMx8) to watch the video I have done for my movie recommender system project.
