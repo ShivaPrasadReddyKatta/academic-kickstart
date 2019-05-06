@@ -18,7 +18,7 @@ tags = ["Project"]
 # Step to follow.
 
 # Links (optional).
-url_pdf = "files/ProjectBrochure.pdf"
+url_pdf = "files/movieREC.pdf"
 
 
 advancemenuimg=""
