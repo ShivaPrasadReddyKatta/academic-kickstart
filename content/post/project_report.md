@@ -1,5 +1,5 @@
 +++
-title = "Project Report" 
+title = "Project Report Phase 1" 
 date = 2018-12-21T00:00:00
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -33,4 +33,51 @@ The aim of this project is to build a movie recommendation engine, however, I wa
     return data['original_title'] + ' ' + data['overview'] + ' '  + data['tagline'] + ' ' .join(data['genres'])
     df['unprocesses_text_col'] = df.apply(text_dump, axis=1)
     df['unprocesses_text_col'][23455]
+    
+Now, I converted the text into lower case and removed punctuation, stopwords from it.
+
+    df.unprocesses_text_col = df.unprocesses_text_col.apply(lambda x: x.lower())
+    df['unprocesses_text_col'][23455]
+    df['unprocesses_text_col'] = df['unprocesses_text_col'].str.replace('[^\w\s]','')
+    df['unprocesses_text_col'][23455]
+    cachedStopWords = stopwords.words("english")
+
+    def removeStopWords(text):
+      text = ' '.join([word for word in text.split() if word not in cachedStopWords])
+      return text
+
+    df['processed_text_col'] = df['unprocesses_text_col'].apply(removeStopWords)
+    df['processed_text_col'][23455]
+    
+The next step involves stemming and I used Snowball Stemmer which is the version 2 of Porter stemmer.
+
+    stemmer = SnowballStemmer('english')
+
+    def stemmerk(text):
+      words = word_tokenize(text)
+      return ' '.join([stemmer.stem(w) for w in words])
+    df['processed_text_col'] = df['processed_text_col'].apply(stemmerk)
+    df['processed_text_col'][23455]
+
+Now, I will generate a count matrix for each movie and calculate the TF-IDF.
+
+    count = CountVectorizer()
+    count_matrix = count.fit_transform(df['processed_text_col'])
+    tfidf_transformer = TfidfTransformer()
+    train_tfidf = tfidf_transformer.fit_transform(count_matrix)
+
+The following function will take a query as input and return the top 3 results using Cosine Similarity
+
+    def movieList(entry):
+    entry = entry.lower()
+    entry = re.sub(r'[^\w\s]','',entry)
+    entry = removeStopWords(entry)
+    entry = stemmerk(entry)
+    entry_count_matrix = count.transform([entry])
+    entry_tf_idf = tfidf_transformer.transform(entry_count_matrix)
+    similarity_score = cosine_similarity(entry_tf_idf, train_tfidf)
+    sorted_indexes = np.argsort(similarity_score).tolist()
+    return df[['original_title', 'overview']].iloc[sorted_indexes[0][-3:]]
+    
+The libraries I used in Python are numpy, pandas, nltk, sklearn, etc.
 
