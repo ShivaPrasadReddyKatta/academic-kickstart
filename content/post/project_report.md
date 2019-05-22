@@ -23,9 +23,7 @@ tags = ["Server","Installation"]
 image = "" 
 caption = "" 
 +++
-First things first, let me be honest. I’ve absolutely ‘zero’ prior knowledge in coding and I’ve not worked with Android. As a matter of fact, I've done my Bachelors in Electronics and Communication Engineering, and I have no idea about programming languages. I took this course because it is challenging and that I can learn something new. However, the pressure escalated quickly since the remaining courses I took for this semester turned out to be tough as well.<br/><br/>
+First things first, let me be honest. I’ve absolutely ‘zero’ prior knowledge in coding and I’ve not worked with Android. As a matter of fact, I've done my Bachelors in Electronics and Communication Engineering, and I have no idea about programming languages. I took this course because it is challenging and that I can learn something new. When I started this project, it was like Greek and Latin, and I couldn’t figure out anything. In fact, I gave up many times. Taking help from others and online communities helped me a lot.<br/><br>
 
-When I started this project, it was like Greek and Latin, and I couldn’t figure out anything. In fact, I gave up many times. Taking help from others and online communities helped me a lot. Maintaining a different server for the data set is the hardest part, and I couldn’t achieve this requirement. I've managed to learn Python and write code which displays the search results. The detailed explanation and references can be found in the readme.md file in my GitHub repository.<br/><br/>
-
-Building an app was way above my expertise and I couldn't accomplish it. Despite the low grade which I'm sure I will get, taking this course actually helped me in learning something new. I've learned all the concepts which are given in the notes provided and I'm pretty confident about those topics. However, implementing those topics through programming language was the most difficult part, given that I'm new to coding.
+The aim of this project is to build a movie recommendation engine, however, I was able to accomplish only the phase 1 of this project which is the search engine.
 
