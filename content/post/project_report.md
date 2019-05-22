@@ -81,3 +81,18 @@ The following function will take a query as input and return the top 3 results u
     
 The libraries I used in Python are numpy, pandas, nltk, sklearn, etc.
 
+# References
+For converting the text into lower case I referred to Chaim Gluck code from his post on Medium: https://medium.com/@chaimgluck1/have-messy-text-data-clean-it-with-simple-lambda-functions-645918fcc2fc
+
+For removing punctuation I referred Bob Haffner’s code from StackOverflow: https://stackoverflow.com/questions/39782418/remove-punctuations-in-pandas
+
+For punctuation I also referred Quora post: https://www.quora.com/How-do-I-remove-punctuation-from-a-Python-string
+
+For removing stop words I referred code provided by Andy Rimmer in StackOverflow: https://stackoverflow.com/questions/19560498/faster-way-to-remove-stop-words-in-python
+
+For tfidf and sorting the results I referred Heet Madhus code : https://github.com/Heetmadhu/Movie-Recommendation/blob/master/MovieSearch.ipynb
+
+For cosine similarity I referred to Emma Giraldi code: https://github.com/emmagrimaldi/Content_based_movie_recommender/blob/master/.ipynb_checkpoints/EG_project5-checkpoint.ipynb
+
+ https://github.com/BhaskarTrivedi/QuerySearch_Recommentation_Classification
+
