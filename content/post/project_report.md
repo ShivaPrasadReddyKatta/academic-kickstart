@@ -83,6 +83,17 @@ The libraries I used in Python are numpy, pandas, nltk, sklearn, etc.
 
 Coming to the application part, I'm using an Android app to interact with the server and fetch the results. A general outline of the system architecture can be seen by [clicking here](https://drive.google.com/file/d/182RaD7LmovFUJ3lb4A7_eMjgSc3YDmtk/view?usp=sharing)
 
+The python output above is converted into Json data so that it is compatible to be displayed in the Android app.
+
+Upon opening the app, the user can find two options to login: one is to enter the credentials and the other is the guest login. After logging in, user can find 'search for movies' button. As I have done only phase 1, there are no options for classification and recommendation in the application. Now after clicking the 'search for movies' button, the next screen will display a text field and a 'Go' button. Enter the query and hit the Go button. The following screen will display three results.
+Here are the screenshots of the Android app
+1) [Login Screen](https://drive.google.com/file/d/1-JNQsWsgnjMv6k8GTCLP87v5VGXOv9oB/view?usp=sharing)
+2) [Home Screen](https://drive.google.com/file/d/1-3O_Hgiu3DqnI3Byqjdnp0DG_NAp7X_n/view?usp=sharing)
+3) a) [Search Screen](https://drive.google.com/file/d/1-3UScSRycysDAEBiFhXJmnzFBUOze2rj/view?usp=sharing)
+   b) [Search Screen](https://drive.google.com/file/d/1-4iSvyCk-Iebi9Toslc2Bky1Hvln5wD2/view?usp=sharing)
+4) [Result Screen](https://drive.google.com/file/d/1-55HhhQooPmfMI6Y1NgYW4BA_nGK_jno/view?usp=sharing)
+
+
 # References
 For converting the text into lower case I referred to Chaim Gluck code from his post on Medium: https://medium.com/@chaimgluck1/have-messy-text-data-clean-it-with-simple-lambda-functions-645918fcc2fc
 
