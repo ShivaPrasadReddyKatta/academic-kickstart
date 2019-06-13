@@ -81,6 +81,8 @@ The following function will take a query as input and return the top 3 results u
     
 The libraries I used in Python are numpy, pandas, nltk, sklearn, etc.
 
+Coming to the application part, I'm using an Android app to interact with the server and fetch the results. A general outline of the system architecture can be seen by [clicking here](https://drive.google.com/file/d/182RaD7LmovFUJ3lb4A7_eMjgSc3YDmtk/view?usp=sharing)
+
 # References
 For converting the text into lower case I referred to Chaim Gluck code from his post on Medium: https://medium.com/@chaimgluck1/have-messy-text-data-clean-it-with-simple-lambda-functions-645918fcc2fc
 
